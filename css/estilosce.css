@@ -1,7 +1,7 @@
 @font-face {
     
-font-family: "Gnuolane Regular";
-src: url("css/fonts/gnuolane-free.regular-webfont.ttf") format("truetype");
+font-family: "Gnuolane Font";
+src: url("fonts/gnuolane-free.regular-webfont.woff");
     
 }
 
@@ -162,7 +162,7 @@ ul.rrss >li{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: "Gnuolane Regular";
+    font-family: "Gnuolane Font";
     font-size: 21px;
         
 }

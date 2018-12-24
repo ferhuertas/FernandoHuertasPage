@@ -614,7 +614,10 @@ background-image: url(future.png);
         margin-left:-1200px;
     } 
     .programas div{
-    width: 25%;
+    width: 38%;
+        padding-left: 5%;
+        padding-right: 5%;
+       
     }
     .buttonport {
         top: 15%;

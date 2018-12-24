@@ -1,6 +1,7 @@
 @font-face {
     
 font-family: "Gnuolane Font";
+    font-display: auto;
 src: url("fonts/gnuolane-free.regular-webfont.woff");
     
 }
@@ -115,7 +116,8 @@ ul.rrss >li{
 }
 .contenidobody{
     background: transparent;
-     padding: 15px;
+     padding-left: 2%;
+    padding-right: 2%;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -528,7 +530,27 @@ background-image: url(future.png);
 @media screen and (max-width:768px), , screen and (max-height: 590px) {
     body{
         transition: all 0.4s;
+        margin:0px;
     }
+    .container{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .contenidobody{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+
+#formacion .container {
+    padding-left: 0%;
+    padding-right: 2%;
+}
+    
+    .containerEDU, .containerFUTURE, .containerBORN {
+    padding-right: 0px;
+
+}
     .menupart label{
         position: fixed;
         background: white;
@@ -615,7 +637,7 @@ background-image: url(future.png);
   .containerEDU, .containerFUTURE, .containerBORN {
     width: 80%;
     padding-left: 65px;
-    padding-right: 25px;
+    padding-right: 0px;
       padding-bottom: 25px;
   }
 
